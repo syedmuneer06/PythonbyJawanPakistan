@@ -1,0 +1,20 @@
+Eng=90;
+Isl=75;
+Maths=90;
+Obtained_Marks=Eng+Isl+Maths;
+Total_Marks=300;
+percent=(Obtained_Marks/Total_Marks)*100;
+if percent >= 90:
+    Print("Your grade is A+");
+elif percent<=89 and percent>=80:
+    print("your grade is A")
+elif percent<=79 and percent>=70:
+    print("your grade is B+")
+elif percent<=69 and percent>=60:
+    print("your grade is B")
+elif percent<=59 and percent>=50:
+    print("your grade is B")
+else:
+    print('Fail')
+    
+your grade is A
